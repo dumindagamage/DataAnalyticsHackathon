@@ -1,206 +1,206 @@
-car_ID,symboling,CarName,fueltype,aspiration,doornumber,carbody,drivewheel,enginelocation,wheelbase,carlength,carwidth,carheight,curbweight,enginetype,cylindernumber,enginesize,fuelsystem,boreratio,stroke,compressionratio,horsepower,peakrpm,citympg,highwaympg,price
-1,3,alfa-romero giulia,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,"£13,495.00"
-2,3,alfa-romero stelvio,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,"£16,500.00"
-3,1,alfa-romero Quadrifoglio,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,ohcv,six,152,mpfi,2.68,3.47,9.0,154,5000,19,26,"£16,500.00"
-4,2,audi 100 ls,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,3.19,3.4,10.0,102,5500,24,30,"£13,950.00"
-5,2,audi 100ls,gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,3.19,3.4,8.0,115,5500,18,22,"£17,450.00"
-6,2,audi fox,gas,std,two,sedan,fwd,front,99.8,177.3,66.3,53.1,2507,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£15,250.00"
-7,1,audi 100ls,gas,std,four,sedan,fwd,front,105.8,192.7,71.4,55.7,2844,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£17,710.00"
-8,1,audi 5000,gas,std,four,wagon,fwd,front,105.8,192.7,71.4,55.7,2954,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£18,920.00"
-9,1,audi 4000,gas,turbo,four,sedan,fwd,front,105.8,192.7,71.4,55.9,3086,ohc,five,131,mpfi,3.13,3.4,8.3,140,5500,17,20,"£23,875.00"
-10,0,audi 5000s (diesel),gas,turbo,two,hatchback,4wd,front,99.5,178.2,67.9,52.0,3053,ohc,five,131,mpfi,3.13,3.4,7.0,160,5500,16,22,"£17,859.17"
-11,2,bmw 320i,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,3.5,2.8,8.8,101,5800,23,29,"£16,430.00"
-12,0,bmw 320i,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,3.5,2.8,8.8,101,5800,23,29,"£16,925.00"
-13,0,bmw x1,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2710,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,21,28,"£20,970.00"
-14,0,bmw x3,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2765,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,21,28,"£21,105.00"
-15,1,bmw z4,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3055,ohc,six,164,mpfi,3.31,3.19,9.0,121,4250,20,25,"£24,565.00"
-16,0,bmw x4,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3230,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,16,22,"£30,760.00"
-17,0,bmw x5,gas,std,two,sedan,rwd,front,103.5,193.8,67.9,53.7,3380,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,16,22,"£41,315.00"
-18,0,bmw x3,gas,std,four,sedan,rwd,front,110.0,197.0,70.9,56.3,3505,ohc,six,209,mpfi,3.62,3.39,8.0,182,5400,15,20,"£36,880.00"
-19,2,chevrolet impala,gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,l,three,61,2bbl,2.91,3.03,9.5,48,5100,47,53,"£5,151.00"
-20,1,chevrolet monte carlo,gas,std,two,hatchback,fwd,front,94.5,155.9,63.6,52.0,1874,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£6,295.00"
-21,0,chevrolet vega 2300,gas,std,four,sedan,fwd,front,94.5,158.8,63.6,52.0,1909,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£6,575.00"
-22,1,dodge rampage,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,ohc,four,90,2bbl,2.97,3.23,9.41,68,5500,37,41,"£5,572.00"
-23,1,dodge challenger se,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,377.00"
-24,1,dodge d200,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,ohc,four,98,mpfi,3.03,3.39,7.6,102,5500,24,30,"£7,957.00"
-25,1,dodge monaco (sw),gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,229.00"
-26,1,dodge colt hardtop,gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,692.00"
-27,1,dodge colt (sw),gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£7,609.00"
-28,1,dodge coronet custom,gas,turbo,two,sedan,fwd,front,93.7,157.3,63.8,50.6,2191,ohc,four,98,mpfi,3.03,3.39,7.6,102,5500,24,30,"£8,558.00"
-29,-1,dodge dart custom,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,ohc,four,122,2bbl,3.34,3.46,8.5,88,5000,24,30,"£8,921.00"
-30,3,dodge coronet custom (sw),gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2811,ohc,four,156,mfi,3.6,3.9,7.0,145,5000,19,24,"£12,964.00"
-31,2,honda civic,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1713,ohc,four,92,1bbl,2.91,3.41,9.6,58,4800,49,54,"£6,479.00"
-32,2,honda civic cvcc,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1819,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,31,38,"£6,855.00"
-33,1,honda civic,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1837,ohc,four,79,1bbl,2.91,3.07,10.1,60,5500,38,42,"£5,399.00"
-34,1,honda accord cvcc,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1940,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£6,529.00"
-35,1,honda civic cvcc,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1956,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£7,129.00"
-36,0,honda accord lx,gas,std,four,sedan,fwd,front,96.5,163.4,64.0,54.5,2010,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£7,295.00"
-37,0,honda civic 1500 gl,gas,std,four,wagon,fwd,front,96.5,157.1,63.9,58.3,2024,ohc,four,92,1bbl,2.92,3.41,9.2,76,6000,30,34,"£7,295.00"
-38,0,honda accord,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2236,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£7,895.00"
-39,0,honda civic 1300,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2289,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£9,095.00"
-40,0,honda prelude,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2304,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£8,845.00"
-41,0,honda accord,gas,std,four,sedan,fwd,front,96.5,175.4,62.5,54.1,2372,ohc,four,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£10,295.00"
-42,0,honda civic,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2465,ohc,four,110,mpfi,3.15,3.58,9.0,101,5800,24,28,"£12,945.00"
-43,1,honda civic (auto),gas,std,two,sedan,fwd,front,96.5,169.1,66.0,51.0,2293,ohc,four,110,2bbl,3.15,3.58,9.1,100,5500,25,31,"£10,345.00"
-44,0,isuzu MU-X,gas,std,four,sedan,rwd,front,94.3,170.7,61.8,53.5,2337,ohc,four,111,2bbl,3.31,3.23,8.5,78,4800,24,29,"£6,785.00"
-45,1,isuzu D-Max ,gas,std,two,sedan,fwd,front,94.5,155.9,63.6,52.0,1874,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£8,916.50"
-46,0,isuzu D-Max V-Cross,gas,std,four,sedan,fwd,front,94.5,155.9,63.6,52.0,1909,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£8,916.50"
-47,2,isuzu D-Max ,gas,std,two,hatchback,rwd,front,96.0,172.6,65.2,51.4,2734,ohc,four,119,spfi,3.43,3.23,9.2,90,5000,24,29,"£11,048.00"
-48,0,jaguar xj,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,six,258,mpfi,3.63,4.17,8.1,176,4750,15,19,"£32,250.00"
-49,0,jaguar xf,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,dohc,six,258,mpfi,3.63,4.17,8.1,176,4750,15,19,"£35,550.00"
-50,0,jaguar xk,gas,std,two,sedan,rwd,front,102.0,191.7,70.6,47.8,3950,ohcv,twelve,326,mpfi,3.54,2.76,11.5,262,5000,13,17,"£36,000.00"
-51,1,maxda rx3,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1890,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,30,31,"£5,195.00"
-52,1,maxda glc deluxe,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,095.00"
-53,1,mazda rx2 coupe,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1905,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,795.00"
-54,1,mazda rx-4,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1945,ohc,four,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,695.00"
-55,1,mazda glc deluxe,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,ohc,four,91,2bbl,3.08,3.15,9.0,68,5000,31,38,"£7,395.00"
-56,3,mazda 626,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£10,945.00"
-57,3,mazda glc,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£11,845.00"
-58,3,mazda rx-7 gs,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2385,rotor,two,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£13,645.00"
-59,3,mazda glc 4,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2500,rotor,two,80,mpfi,3.33,3.255,9.4,135,6000,16,23,"£15,645.00"
-60,1,mazda 626,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£8,845.00"
-61,0,mazda glc custom l,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£8,495.00"
-62,1,mazda glc custom,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£10,595.00"
-63,0,mazda rx-4,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£10,245.00"
-64,0,mazda glc deluxe,diesel,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2443,ohc,four,122,idi,3.39,3.39,22.7,64,4650,36,42,"£10,795.00"
-65,0,mazda 626,gas,std,four,hatchback,fwd,front,98.8,177.8,66.5,55.5,2425,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£11,245.00"
-66,0,mazda glc,gas,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2670,ohc,four,140,mpfi,3.76,3.16,8.0,120,5000,19,27,"£18,280.00"
-67,0,mazda rx-7 gs,diesel,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2700,ohc,four,134,idi,3.43,3.64,22.0,72,4200,31,39,"£18,344.00"
-68,-1,buick electra 225 custom,diesel,turbo,four,sedan,rwd,front,110.0,190.9,70.3,56.5,3515,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,"£25,552.00"
-69,-1,buick century luxus (sw),diesel,turbo,four,wagon,rwd,front,110.0,190.9,70.3,58.7,3750,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,"£28,248.00"
-70,0,buick century,diesel,turbo,two,hardtop,rwd,front,106.7,187.5,70.3,54.9,3495,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,"£28,176.00"
-71,-1,buick skyhawk,diesel,turbo,four,sedan,rwd,front,115.6,202.6,71.7,56.3,3770,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,"£31,600.00"
-72,-1,buick opel isuzu deluxe,gas,std,four,sedan,rwd,front,115.6,202.6,71.7,56.5,3740,ohcv,eight,234,mpfi,3.46,3.1,8.3,155,4750,16,18,"£34,184.00"
-73,3,buick skylark,gas,std,two,convertible,rwd,front,96.6,180.3,70.5,50.8,3685,ohcv,eight,234,mpfi,3.46,3.1,8.3,155,4750,16,18,"£35,056.00"
-74,0,buick century special,gas,std,four,sedan,rwd,front,120.9,208.1,71.7,56.7,3900,ohcv,eight,308,mpfi,3.8,3.35,8.0,184,4500,14,16,"£40,960.00"
-75,1,buick regal sport coupe (turbo),gas,std,two,hardtop,rwd,front,112.0,199.2,72.0,55.4,3715,ohcv,eight,304,mpfi,3.8,3.35,8.0,184,4500,14,16,"£45,400.00"
-76,1,mercury cougar,gas,turbo,two,hatchback,rwd,front,102.7,178.4,68.0,54.8,2910,ohc,four,140,mpfi,3.78,3.12,8.0,175,5000,19,24,"£16,503.00"
-77,2,mitsubishi mirage,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1918,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,37,41,"£5,389.00"
-78,2,mitsubishi lancer,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1944,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,189.00"
-79,2,mitsubishi outlander,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,2004,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,669.00"
-80,1,mitsubishi g4,gas,turbo,two,hatchback,fwd,front,93.0,157.3,63.8,50.8,2145,ohc,four,98,spdi,3.03,3.39,7.6,102,5500,24,30,"£7,689.00"
-81,3,mitsubishi mirage g4,gas,turbo,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2370,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,959.00"
-82,3,mitsubishi g4,gas,std,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2328,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£8,499.00"
-83,3,mitsubishi outlander,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2833,ohc,four,156,spdi,3.58,3.86,7.0,145,5000,19,24,"£12,629.00"
-84,3,mitsubishi g4,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2921,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£14,869.00"
-85,3,mitsubishi mirage g4,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2926,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£14,489.00"
-86,1,mitsubishi montero,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2365,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£6,989.00"
-87,1,mitsubishi pajero,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2405,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£8,189.00"
-88,1,mitsubishi outlander,gas,turbo,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,279.00"
-89,-1,mitsubishi mirage g4,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,279.00"
-90,1,Nissan versa,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1889,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£5,499.00"
-91,1,nissan gt-r,diesel,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,2017,ohc,four,103,idi,2.99,3.47,21.9,55,4800,45,50,"£7,099.00"
-92,1,nissan rogue,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1918,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£6,649.00"
-93,1,nissan latio,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1938,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£6,849.00"
-94,1,nissan titan,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2024,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,349.00"
-95,1,nissan leaf,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1951,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,299.00"
-96,1,nissan juke,gas,std,two,hatchback,fwd,front,94.5,165.6,63.8,53.3,2028,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,799.00"
-97,1,nissan latio,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1971,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,499.00"
-98,1,nissan note,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2037,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,999.00"
-99,2,nissan clipper,gas,std,two,hardtop,fwd,front,95.1,162.4,63.8,53.3,2008,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£8,249.00"
-100,0,nissan rogue,gas,std,four,hatchback,fwd,front,97.2,173.4,65.2,54.7,2324,ohc,four,120,2bbl,3.33,3.47,8.5,97,5200,27,34,"£8,949.00"
-101,0,nissan nv200,gas,std,four,sedan,fwd,front,97.2,173.4,65.2,54.7,2302,ohc,four,120,2bbl,3.33,3.47,8.5,97,5200,27,34,"£9,549.00"
-102,0,nissan dayz,gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,17,22,"£13,499.00"
-103,0,nissan fuga,gas,std,four,wagon,fwd,front,100.4,184.6,66.5,56.1,3296,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,17,22,"£14,399.00"
-104,0,nissan otti,gas,std,four,sedan,fwd,front,100.4,184.6,66.5,55.1,3060,ohcv,six,181,mpfi,3.43,3.27,9.0,152,5200,19,25,"£13,499.00"
-105,3,nissan teana,gas,std,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3071,ohcv,six,181,mpfi,3.43,3.27,9.0,160,5200,19,25,"£17,199.00"
-106,3,nissan kicks,gas,turbo,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3139,ohcv,six,181,mpfi,3.43,3.27,7.8,200,5200,17,23,"£19,699.00"
-107,1,nissan clipper,gas,std,two,hatchback,rwd,front,99.2,178.5,67.9,49.7,3139,ohcv,six,181,mpfi,3.43,3.27,9.0,160,5200,19,25,"£18,399.00"
-108,0,peugeot 504,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3020,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£11,900.00"
-109,0,peugeot 304,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,"£13,200.00"
-110,0,peugeot 504 (sw),gas,std,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3230,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£12,440.00"
-111,0,peugeot 504,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3430,l,four,152,idi,3.7,3.52,21.0,95,4150,25,25,"£13,860.00"
-112,0,peugeot 504,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,l,four,120,mpfi,3.46,2.19,8.4,95,5000,19,24,"£15,580.00"
-113,0,peugeot 604sl,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,"£16,900.00"
-114,0,peugeot 504,gas,std,four,wagon,rwd,front,114.2,198.9,68.4,56.7,3285,l,four,120,mpfi,3.46,2.19,8.4,95,5000,19,24,"£16,695.00"
-115,0,peugeot 505s turbo diesel,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3485,l,four,152,idi,3.7,3.52,21.0,95,4150,25,25,"£17,075.00"
-116,0,peugeot 504,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,l,four,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£16,630.00"
-117,0,peugeot 504,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,3.7,3.52,21.0,95,4150,28,33,"£17,950.00"
-118,0,peugeot 604sl,gas,turbo,four,sedan,rwd,front,108.0,186.7,68.3,56.0,3130,l,four,134,mpfi,3.61,3.21,7.0,142,5600,18,24,"£18,150.00"
-119,1,plymouth fury iii,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1918,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,37,41,"£5,572.00"
-120,1,plymouth cricket,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,ohc,four,98,spdi,3.03,3.39,7.6,102,5500,24,30,"£7,957.00"
-121,1,plymouth fury iii,gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,229.00"
-122,1,plymouth satellite custom (sw),gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,692.00"
-123,1,plymouth fury gran sedan,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,2191,ohc,four,98,2bbl,2.97,3.23,9.4,68,5500,31,38,"£7,609.00"
-124,-1,plymouth valiant,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,ohc,four,122,2bbl,3.35,3.46,8.5,88,5000,24,30,"£8,921.00"
-125,3,plymouth duster,gas,turbo,two,hatchback,rwd,front,95.9,173.2,66.3,50.2,2818,ohc,four,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£12,764.00"
-126,3,porsche macan,gas,std,two,hatchback,rwd,front,94.5,168.9,68.3,50.2,2778,ohc,four,151,mpfi,3.94,3.11,9.5,143,5500,19,27,"£22,018.00"
-127,3,porcshce panamera,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£32,528.00"
-128,3,porsche cayenne,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£34,028.00"
-129,3,porsche boxter,gas,std,two,convertible,rwd,rear,89.5,168.9,65.0,51.6,2800,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£37,028.00"
-130,1,porsche cayenne,gas,std,two,hatchback,rwd,front,98.4,175.7,72.3,50.5,3366,dohcv,eight,203,mpfi,3.94,3.11,10.0,288,5750,17,28,"£31,400.50"
-131,0,renault 12tl,gas,std,four,wagon,fwd,front,96.1,181.5,66.5,55.2,2579,ohc,four,132,mpfi,3.46,3.9,8.7,90,5100,23,31,"£9,295.00"
-132,2,renault 5 gtl,gas,std,two,hatchback,fwd,front,96.1,176.8,66.6,50.5,2460,ohc,four,132,mpfi,3.46,3.9,8.7,90,5100,23,31,"£9,895.00"
-133,3,saab 99e,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2658,ohc,four,121,mpfi,3.54,3.07,9.31,110,5250,21,28,"£11,850.00"
-134,2,saab 99le,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2695,ohc,four,121,mpfi,3.54,3.07,9.3,110,5250,21,28,"£12,170.00"
-135,3,saab 99le,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2707,ohc,four,121,mpfi,2.54,2.07,9.3,110,5250,21,28,"£15,040.00"
-136,2,saab 99gle,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2758,ohc,four,121,mpfi,3.54,3.07,9.3,110,5250,21,28,"£15,510.00"
-137,3,saab 99gle,gas,turbo,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2808,dohc,four,121,mpfi,3.54,3.07,9.0,160,5500,19,26,"£18,150.00"
-138,2,saab 99e,gas,turbo,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2847,dohc,four,121,mpfi,3.54,3.07,9.0,160,5500,19,26,"£18,620.00"
-139,2,subaru,gas,std,two,hatchback,fwd,front,93.7,156.9,63.4,53.7,2050,ohcf,four,97,2bbl,3.62,2.36,9.0,69,4900,31,36,"£5,118.00"
-140,2,subaru dl,gas,std,two,hatchback,fwd,front,93.7,157.9,63.6,53.7,2120,ohcf,four,108,2bbl,3.62,2.64,8.7,73,4400,26,31,"£7,053.00"
-141,2,subaru dl,gas,std,two,hatchback,4wd,front,93.3,157.3,63.8,55.7,2240,ohcf,four,108,2bbl,3.62,2.64,8.7,73,4400,26,31,"£7,603.00"
-142,0,subaru,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2145,ohcf,four,108,2bbl,3.62,2.64,9.5,82,4800,32,37,"£7,126.00"
-143,0,subaru brz,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2190,ohcf,four,108,2bbl,3.62,2.64,9.5,82,4400,28,33,"£7,775.00"
-144,0,subaru baja,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2340,ohcf,four,108,mpfi,3.62,2.64,9.0,94,5200,26,32,"£9,960.00"
-145,0,subaru r1,gas,std,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2385,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,24,25,"£9,233.00"
-146,0,subaru r2,gas,turbo,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2510,ohcf,four,108,mpfi,3.62,2.64,7.7,111,4800,24,29,"£11,259.00"
-147,0,subaru trezia,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2290,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,28,32,"£7,463.00"
-148,0,subaru tribeca,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2455,ohcf,four,108,mpfi,3.62,2.64,9.0,94,5200,25,31,"£10,198.00"
-149,0,subaru dl,gas,std,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2420,ohcf,four,108,2bbl,3.62,2.64,9.0,82,4800,23,29,"£8,013.00"
-150,0,subaru dl,gas,turbo,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2650,ohcf,four,108,mpfi,3.62,2.64,7.7,111,4800,23,23,"£11,694.00"
-151,1,toyota corona mark ii,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,1985,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,35,39,"£5,348.00"
-152,1,toyota corona,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,2040,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,38,"£6,338.00"
-153,1,toyota corolla 1200,gas,std,four,hatchback,fwd,front,95.7,158.7,63.6,54.5,2015,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,38,"£6,488.00"
-154,0,toyota corona hardtop,gas,std,four,wagon,fwd,front,95.7,169.7,63.6,59.1,2280,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,31,37,"£6,918.00"
-155,0,toyota corolla 1600 (sw),gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,2290,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,27,32,"£7,898.00"
-156,0,toyota carina,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,3110,ohc,four,92,2bbl,3.05,3.03,9.0,62,4800,27,32,"£8,778.00"
-157,0,toyota mark ii,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2081,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,30,37,"£6,938.00"
-158,0,toyota corolla 1200,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2109,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,30,37,"£7,198.00"
-159,0,toyota corona,diesel,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,34,36,"£7,898.00"
-160,0,toyota corolla,diesel,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,38,47,"£7,788.00"
-161,0,toyota corona,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2094,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,38,47,"£7,738.00"
-162,0,toyota corolla,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2122,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,28,34,"£8,358.00"
-163,0,toyota mark ii,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,52.8,2140,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,28,34,"£9,258.00"
-164,1,toyota corolla liftback,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2169,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,29,34,"£8,058.00"
-165,1,toyota corona,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2204,ohc,four,98,2bbl,3.19,3.03,9.0,70,4800,29,34,"£8,238.00"
-166,1,toyota celica gt liftback,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2265,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,"£9,298.00"
-167,1,toyota corolla tercel,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2300,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,"£9,538.00"
-168,2,toyota corona liftback,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2540,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£8,449.00"
-169,2,toyota corolla,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2536,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£9,639.00"
-170,2,toyota starlet,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2551,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£9,989.00"
-171,2,toyota tercel,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2679,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£11,199.00"
-172,2,toyota corolla,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2714,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£11,549.00"
-173,2,toyota cressida,gas,std,two,convertible,rwd,front,98.4,176.2,65.6,53.0,2975,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£17,669.00"
-174,-1,toyota corolla,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2326,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,29,34,"£8,948.00"
-175,-1,toyota celica gt,diesel,turbo,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2480,ohc,four,110,idi,3.27,3.35,22.5,73,4500,30,33,"£10,698.00"
-176,-1,toyota corona,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2414,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£9,988.00"
-177,-1,toyota corolla,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2414,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£10,898.00"
-178,-1,toyota mark ii,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2458,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£11,248.00"
-179,3,toyota corolla liftback,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,2976,dohc,six,171,mpfi,3.27,3.35,9.3,161,5200,20,24,"£16,558.00"
-180,3,toyota corona,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,3016,dohc,six,171,mpfi,3.27,3.35,9.3,161,5200,19,24,"£15,998.00"
-181,-1,toyota starlet,gas,std,four,sedan,rwd,front,104.5,187.8,66.5,54.1,3131,dohc,six,171,mpfi,3.27,3.35,9.2,156,5200,20,24,"£15,690.00"
-182,-1,toyouta tercel,gas,std,four,wagon,rwd,front,104.5,187.8,66.5,54.1,3151,dohc,six,161,mpfi,3.27,3.35,9.2,156,5200,19,24,"£15,750.00"
-183,2,vokswagen rabbit,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,ohc,four,97,idi,3.01,3.4,23.0,52,4800,37,46,"£7,775.00"
-184,2,volkswagen 1131 deluxe sedan,gas,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2209,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£7,975.00"
-185,2,volkswagen model 111,diesel,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2264,ohc,four,97,idi,3.01,3.4,23.0,52,4800,37,46,"£7,995.00"
-186,2,volkswagen type 3,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2212,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£8,195.00"
-187,2,volkswagen 411 (sw),gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2275,ohc,four,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£8,495.00"
-188,2,volkswagen super beetle,diesel,turbo,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2319,ohc,four,97,idi,3.01,3.4,23.0,68,4500,37,42,"£9,495.00"
-189,2,volkswagen dasher,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2300,ohc,four,109,mpfi,3.19,3.4,10.0,100,5500,26,32,"£9,995.00"
-190,3,vw dasher,gas,std,two,convertible,fwd,front,94.5,159.3,64.2,55.6,2254,ohc,four,109,mpfi,3.19,3.4,8.5,90,5500,24,29,"£11,595.00"
-191,3,vw rabbit,gas,std,two,hatchback,fwd,front,94.5,165.7,64.0,51.4,2221,ohc,four,109,mpfi,3.19,3.4,8.5,90,5500,24,29,"£9,980.00"
-192,0,volkswagen rabbit,gas,std,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2661,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,24,"£13,295.00"
-193,0,volkswagen rabbit custom,diesel,turbo,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2579,ohc,four,97,idi,3.01,3.4,23.0,68,4500,33,38,"£13,845.00"
-194,0,volkswagen dasher,gas,std,four,wagon,fwd,front,100.4,183.1,66.9,55.1,2563,ohc,four,109,mpfi,3.19,3.4,9.0,88,5500,25,31,"£12,290.00"
-195,-2,volvo 145e (sw),gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2912,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£12,940.00"
-196,-1,volvo 144ea,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3034,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£13,415.00"
-197,-2,volvo 244dl,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2935,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,24,28,"£15,985.00"
-198,-1,volvo 245,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3042,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,24,28,"£16,515.00"
-199,-2,volvo 264gl,gas,turbo,four,sedan,rwd,front,104.3,188.8,67.2,56.2,3045,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,"£18,420.00"
-200,-1,volvo diesel,gas,turbo,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3157,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,"£18,950.00"
-201,-1,volvo 145e (sw),gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,2952,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£16,845.00"
-202,-1,volvo 144ea,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.8,55.5,3049,ohc,four,141,mpfi,3.78,3.15,8.7,160,5300,19,25,"£19,045.00"
-203,-1,volvo 244dl,gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3012,ohcv,six,173,mpfi,3.58,2.87,8.8,134,5500,18,23,"£21,485.00"
-204,-1,volvo 246,diesel,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3217,ohc,six,145,idi,3.01,3.4,23.0,106,4800,26,27,"£22,470.00"
-205,-1,volvo 264gl,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3062,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,19,25,"£22,625.00"
+car_ID,Brand,Model,symboling,fueltype,aspiration,doornumber,carbody,drivewheel,enginelocation,wheelbase,carlength,carwidth,carheight,curbweight,volume,volume_scaled,curbweight_kg,enginetype,cylindernumber,enginesize,fuelsystem,boreratio,stroke,compressionratio,horsepower,peakrpm,citympg,highwaympg,price,mpg_average
+1,alfa-romero,giulia,3,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,7970347.839999999,0.28848813652373695,1155.752416,dohc,4,130,mpfi,3.47,2.68,9.0,111,5000,21,27,"£13,495.00",24.0
+2,alfa-romero,stelvio,3,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,7970347.839999999,0.28848813652373695,1155.752416,dohc,4,130,mpfi,3.47,2.68,9.0,111,5000,21,27,"£16,500.00",24.0
+3,alfa-romero,quadrifoglio,1,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,9689100.6,0.4435881583390446,1280.490216,ohcv,6,152,mpfi,2.68,3.47,9.0,154,5000,19,26,"£16,500.00",22.5
+4,audi,100 ls,2,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,8400720.42,0.3273249012406764,1060.044504,ohc,4,109,mpfi,3.19,3.4,10.0,102,5500,24,30,"£13,950.00",27.0
+5,audi,100ls,2,gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,10181988.48,0.48806629546244373,1280.943808,ohc,5,136,mpfi,3.19,3.4,8.0,115,5500,18,22,"£17,450.00",20.0
+6,audi,fox,2,gas,std,two,sedan,fwd,front,99.8,177.3,66.3,53.1,2507,8825968.709999999,0.36569925070553033,1137.155144,ohc,5,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£15,250.00",22.0
+7,audi,100ls,1,gas,std,four,sedan,fwd,front,105.8,192.7,71.4,55.7,2844,11310531.120000001,0.5899058340843366,1290.015648,ohc,5,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£17,710.00",22.0
+8,audi,5000,1,gas,std,four,wagon,fwd,front,105.8,192.7,71.4,55.7,2954,11747998.920000002,0.6293828705159724,1339.910768,ohc,5,136,mpfi,3.19,3.4,8.5,110,5500,19,25,"£18,920.00",22.0
+9,audi,4000,1,gas,turbo,four,sedan,fwd,front,105.8,192.7,71.4,55.9,3086,12317028.360000001,0.6807320119466178,1399.784912,ohc,5,131,mpfi,3.13,3.4,8.3,140,5500,17,20,"£23,875.00",18.5
+10,audi,5000s (diesel),0,gas,turbo,two,hatchback,4wd,front,99.5,178.2,67.9,52.0,3053,10779532.4,0.5419885797982108,1384.816376,ohc,5,131,mpfi,3.13,3.4,7.0,160,5500,16,22,"£17,859.17",19.0
+11,bmw,320i,2,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,8427142.799999999,0.3297092533184076,1086.35284,ohc,4,108,mpfi,3.5,2.8,8.8,101,5800,23,29,"£16,430.00",26.0
+12,bmw,320i,0,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,8427142.799999999,0.3297092533184076,1086.35284,ohc,4,108,mpfi,3.5,2.8,8.8,101,5800,23,29,"£16,925.00",26.0
+13,bmw,x1,0,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2710,9535514.4,0.4297285599576403,1229.23432,ohc,6,164,mpfi,3.31,3.19,9.0,121,4250,21,28,"£20,970.00",24.5
+14,bmw,x3,0,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2765,9729039.6,0.44719224841845867,1254.18188,ohc,6,164,mpfi,3.31,3.19,9.0,121,4250,21,28,"£21,105.00",24.5
+15,bmw,z4,1,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3055,11383938.15,0.5965300747659322,1385.72356,ohc,6,164,mpfi,3.31,3.19,9.0,121,4250,20,25,"£24,565.00",22.5
+16,bmw,x4,0,gas,std,four,sedan,rwd,front,103.5,189.0,66.9,55.7,3230,12036045.9,0.6553761919066727,1465.10216,ohc,6,209,mpfi,3.62,3.39,8.0,182,5400,16,22,"£30,760.00",19.0
+17,bmw,x5,0,gas,std,two,sedan,rwd,front,103.5,193.8,67.9,53.7,3380,12324257.400000002,0.6813843595604212,1533.14096,ohc,6,209,mpfi,3.62,3.39,8.0,182,5400,16,22,"£41,315.00",19.0
+18,bmw,x3,0,gas,std,four,sedan,rwd,front,110.0,197.0,70.9,56.3,3505,13990803.35,0.8317732457439185,1589.83996,ohc,6,209,mpfi,3.62,3.39,8.0,182,5400,15,20,"£36,880.00",17.5
+19,chevrolet,impala,2,gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,4773444.48,0.0,674.944896,l,3,61,2bbl,2.91,3.03,9.5,48,5100,47,53,"£5,151.00",50.0
+20,chevrolet,monte carlo,1,gas,std,two,hatchback,fwd,front,94.5,155.9,63.6,52.0,1874,6197692.800000001,0.12852398008798843,850.0314079999999,ohc,4,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£6,295.00",40.5
+21,chevrolet,vega 2300,0,gas,std,four,sedan,fwd,front,94.5,158.8,63.6,52.0,1909,6313444.800000001,0.13896942526368983,865.907128,ohc,4,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£6,575.00",40.5
+22,dodge,rampage,1,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,6080191.039999999,0.11792063680123363,850.938592,ohc,4,90,2bbl,2.97,3.23,9.41,68,5500,37,41,"£5,572.00",39.0
+23,dodge,challenger se,1,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1876,6080191.039999999,0.11792063680123363,850.938592,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,377.00",34.5
+24,dodge,d200,1,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,6896933.119999999,0.19162333411383586,965.243776,ohc,4,98,mpfi,3.03,3.39,7.6,102,5500,24,30,"£7,957.00",27.0
+25,dodge,monaco (sw),1,gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,6350026.76,0.14227057649735916,892.215464,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,229.00",34.5
+26,dodge,colt hardtop,1,gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,6421048.92,0.14867960682547354,902.194488,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,692.00",34.5
+27,dodge,colt (sw),1,gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,6421048.92,0.14867960682547354,902.194488,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£7,609.00",34.5
+28,dodge,coronet custom,1,gas,turbo,two,sedan,fwd,front,93.7,157.3,63.8,50.6,2191,7073161.4799999995,0.2075261580199781,993.820072,ohc,4,98,mpfi,3.03,3.39,7.6,102,5500,24,30,"£8,558.00",27.0
+29,dodge,dart custom,-1,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,9792907.799999999,0.4529557063420429,1149.85572,ohc,4,122,2bbl,3.34,3.46,8.5,88,5000,24,30,"£8,921.00",27.0
+30,dodge,coronet custom (sw),3,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2811,9355738.860000001,0.41350563899729315,1275.047112,ohc,4,156,mfi,3.6,3.9,7.0,145,5000,19,24,"£12,964.00",21.5
+31,honda,civic,2,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1713,5560603.56,0.07103313130395629,777.003096,ohc,4,92,1bbl,2.91,3.41,9.6,58,4800,49,54,"£6,479.00",51.5
+32,honda,civic cvcc,2,gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1819,5904692.28,0.10208365190262654,825.083848,ohc,4,92,1bbl,2.91,3.41,9.2,76,6000,31,38,"£6,855.00",34.5
+33,honda,civic,1,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1837,6184076.8,0.12729527404824517,833.248504,ohc,4,79,1bbl,2.91,3.07,10.1,60,5500,38,42,"£5,399.00",40.0
+34,honda,accord cvcc,1,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1940,6530816.0,0.15858497361167878,879.96848,ohc,4,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£6,529.00",32.0
+35,honda,civic cvcc,1,gas,std,two,hatchback,fwd,front,93.7,150.0,64.0,52.6,1956,6584678.4,0.1634455094661928,887.225952,ohc,4,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£7,129.00",32.0
+36,honda,accord lx,0,gas,std,four,sedan,fwd,front,96.5,163.4,64.0,54.5,2010,7010880.0,0.20190588549940358,911.71992,ohc,4,92,1bbl,2.91,3.41,9.2,76,6000,30,34,"£7,295.00",32.0
+37,honda,civic 1500 gl,0,gas,std,four,wagon,fwd,front,96.5,157.1,63.9,58.3,2024,7540148.88,0.24966703925264228,918.070208,ohc,4,92,1bbl,2.92,3.41,9.2,76,6000,30,34,"£7,295.00",32.0
+38,honda,accord,0,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2236,7770457.76,0.2704500821332594,1014.231712,ohc,4,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£7,895.00",30.0
+39,honda,civic 1300,0,gas,std,two,hatchback,fwd,front,96.5,167.5,65.2,53.3,2289,7954641.239999999,0.2870707750164052,1038.272088,ohc,4,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£9,095.00",30.0
+40,honda,prelude,0,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2304,8126945.28,0.30261946880460644,1045.075968,ohc,4,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£8,845.00",30.0
+41,honda,accord,0,gas,std,four,sedan,fwd,front,96.5,175.4,62.5,54.1,2372,8020325.0,0.292998068834343,1075.920224,ohc,4,110,1bbl,3.15,3.58,9.0,86,5800,27,33,"£10,295.00",30.0
+42,honda,civic,0,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2465,8694843.8,0.353866556163978,1118.10428,ohc,4,110,mpfi,3.15,3.58,9.0,101,5800,24,28,"£12,945.00",26.0
+43,honda,civic (auto),1,gas,std,two,sedan,fwd,front,96.5,169.1,66.0,51.0,2293,7718238.0,0.26573777789516173,1040.086456,ohc,4,110,2bbl,3.15,3.58,9.1,100,5500,25,31,"£10,345.00",28.0
+44,isuzu,mu-x,0,gas,std,four,sedan,rwd,front,94.3,170.7,61.8,53.5,2337,7726823.1,0.26651249618407175,1060.044504,ohc,4,111,2bbl,3.31,3.23,8.5,78,4800,24,29,"£6,785.00",26.5
+45,isuzu,d-max,1,gas,std,two,sedan,fwd,front,94.5,155.9,63.6,52.0,1874,6197692.800000001,0.12852398008798843,850.0314079999999,ohc,4,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£8,916.50",40.5
+46,isuzu,d-max v-cross,0,gas,std,four,sedan,fwd,front,94.5,155.9,63.6,52.0,1909,6313444.800000001,0.13896942526368983,865.907128,ohc,4,90,2bbl,3.03,3.11,9.6,70,5400,38,43,"£8,916.50",40.5
+47,isuzu,d-max,2,gas,std,two,hatchback,rwd,front,96.0,172.6,65.2,51.4,2734,9162399.520000001,0.39605872251830104,1240.120528,ohc,4,119,spfi,3.43,3.23,9.2,90,5000,24,29,"£11,048.00",26.5
+48,jaguar,xj,0,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,14942062.079999998,0.9176147077672299,1844.3050719999999,dohc,6,258,mpfi,3.63,4.17,8.1,176,4750,15,19,"£32,250.00",17.0
+49,jaguar,xf,0,gas,std,four,sedan,rwd,front,113.0,199.6,69.6,52.8,4066,14942062.079999998,0.9176147077672299,1844.3050719999999,dohc,6,258,mpfi,3.63,4.17,8.1,176,4750,15,19,"£35,550.00",17.0
+50,jaguar,xk,0,gas,std,two,sedan,rwd,front,102.0,191.7,70.6,47.8,3950,13329985.999999998,0.7721411754507288,1791.6884,ohcv,12,326,mpfi,3.54,2.76,11.5,262,5000,13,17,"£36,000.00",15.0
+51,,maxda rx3,1,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1890,6564385.800000001,0.16161430792520487,857.28888,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,30,31,"£5,195.00",30.5
+52,,maxda glc deluxe,1,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,6599118.000000001,0.16474853706104267,861.8248,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,095.00",34.5
+53,mazda,rx2 coupe,1,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1905,6616484.100000001,0.16631565162896153,864.09276,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,795.00",34.5
+54,mazda,rx-4,1,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1945,6755412.9,0.17885256817231268,882.23644,ohc,4,91,2bbl,3.03,3.15,9.0,68,5000,31,38,"£6,695.00",34.5
+55,mazda,glc deluxe,1,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,6772779.000000001,0.18041968274023165,884.5044,ohc,4,91,2bbl,3.08,3.15,9.0,68,5000,31,38,"£7,395.00",34.5
+56,mazda,626,3,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,7755753.600000001,0.26912318067898877,1079.54896,rotor,2,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£10,945.00",20.0
+57,mazda,glc,3,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2380,7755753.600000001,0.26912318067898877,1079.54896,rotor,2,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£11,845.00",20.0
+58,mazda,rx-7 gs,3,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2385,7772047.2,0.2705935129887096,1081.81692,rotor,2,70,4bbl,3.33,3.255,9.4,101,6000,17,23,"£13,645.00",20.0
+59,mazda,glc 4,3,gas,std,two,hatchback,rwd,front,95.3,169.0,65.7,49.6,2500,8146800.000000001,0.30441115611228936,1133.98,rotor,2,80,mpfi,3.33,3.255,9.4,135,6000,16,23,"£15,645.00",19.5
+60,mazda,626,1,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,8516954.25,0.3378138266918721,1081.81692,ohc,4,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£8,845.00",29.0
+61,mazda,glc custom l,0,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,8894707.5,0.37190223002674344,1093.15672,ohc,4,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£8,495.00",29.0
+62,mazda,glc custom,1,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,8516954.25,0.3378138266918721,1081.81692,ohc,4,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£10,595.00",29.0
+63,mazda,rx-4,0,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,8894707.5,0.37190223002674344,1093.15672,ohc,4,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£10,245.00",29.0
+64,mazda,glc deluxe,0,diesel,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2443,9016502.25,0.38289297216349494,1108.125256,ohc,4,122,idi,3.39,3.39,22.7,64,4650,36,42,"£10,795.00",39.0
+65,mazda,626,0,gas,std,four,hatchback,fwd,front,98.8,177.8,66.5,55.5,2425,8950068.75,0.37689802190708505,1099.9605999999999,ohc,4,122,2bbl,3.39,3.39,8.6,84,4800,26,32,"£11,245.00",29.0
+66,mazda,glc,0,gas,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2670,9600892.799999999,0.4356282981295515,1211.09064,ohc,4,140,mpfi,3.76,3.16,8.0,120,5000,19,27,"£18,280.00",23.0
+67,mazda,rx-7 gs,0,diesel,std,four,sedan,rwd,front,104.9,175.0,66.1,54.4,2700,9708768.0,0.44536294191469417,1224.6984,ohc,4,134,idi,3.43,3.64,22.0,72,4200,31,39,"£18,344.00",35.0
+68,buick,electra 225 custom,-1,diesel,turbo,four,sedan,rwd,front,110.0,190.9,70.3,56.5,3515,13961404.25,0.8291202748469582,1594.37588,ohc,5,183,idi,3.58,3.64,21.5,123,4350,22,25,"£25,552.00",23.5
+69,buick,century luxus (sw),-1,diesel,turbo,four,wagon,rwd,front,110.0,190.9,70.3,58.7,3750,15474787.499999998,0.9656877792330577,1700.97,ohc,5,183,idi,3.58,3.64,21.5,123,4350,22,25,"£28,248.00",23.5
+70,buick,century,0,diesel,turbo,two,hardtop,rwd,front,106.7,187.5,70.3,54.9,3495,13488847.649999999,0.7864768297426328,1585.30404,ohc,5,183,idi,3.58,3.64,21.5,123,4350,22,25,"£28,176.00",23.5
+71,buick,skyhawk,-1,diesel,turbo,four,sedan,rwd,front,115.6,202.6,71.7,56.3,3770,15218396.7,0.9425511073400951,1710.04184,ohc,5,183,idi,3.58,3.64,21.5,123,4350,22,25,"£31,600.00",23.5
+72,buick,opel isuzu deluxe,-1,gas,std,four,sedan,rwd,front,115.6,202.6,71.7,56.5,3740,15150927.0,0.9364626505326877,1696.43408,ohcv,8,234,mpfi,3.46,3.1,8.3,155,4750,16,18,"£34,184.00",17.0
+73,buick,skylark,3,gas,std,two,convertible,rwd,front,96.6,180.3,70.5,50.8,3685,13197458.999999998,0.7601819564929554,1671.48652,ohcv,8,234,mpfi,3.46,3.1,8.3,155,4750,16,18,"£35,056.00",17.0
+74,buick,century special,0,gas,std,four,sedan,rwd,front,120.9,208.1,71.7,56.7,3900,15855021.000000002,1.0,1769.0088,ohcv,8,308,mpfi,3.8,3.35,8.0,184,4500,14,16,"£40,960.00",15.0
+75,buick,regal sport coupe (turbo),1,gas,std,two,hardtop,rwd,front,112.0,199.2,72.0,55.4,3715,14818391.999999998,0.9064547360992276,1685.09428,ohcv,8,304,mpfi,3.8,3.35,8.0,184,4500,14,16,"£45,400.00",15.0
+76,mercury,cougar,1,gas,turbo,two,hatchback,rwd,front,102.7,178.4,68.0,54.8,2910,10843823.999999998,0.5477902452818145,1319.95272,ohc,4,140,mpfi,3.78,3.12,8.0,175,5000,19,24,"£16,503.00",21.5
+77,mitsubishi,mirage,2,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1918,6274775.36,0.13547990011081923,869.989456,ohc,4,92,2bbl,2.97,3.23,9.4,68,5500,37,41,"£5,389.00",39.0
+78,mitsubishi,lancer,2,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,1944,6359834.88,0.14315565994936605,881.782848,ohc,4,92,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,189.00",34.5
+79,mitsubishi,outlander,2,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,2004,6556126.08,0.16086895188447423,908.998368,ohc,4,92,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,669.00",34.5
+80,mitsubishi,g4,1,gas,turbo,two,hatchback,fwd,front,93.0,157.3,63.8,50.8,2145,6952030.799999999,0.19659534147222565,972.95484,ohc,4,98,spdi,3.03,3.39,7.6,102,5500,24,30,"£7,689.00",27.0
+81,mitsubishi,mirage g4,3,gas,turbo,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2370,7656901.2,0.2602027531728851,1075.01304,ohc,4,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,959.00",26.5
+82,mitsubishi,g4,3,gas,std,two,hatchback,fwd,front,96.3,173.0,65.4,49.4,2328,7521209.28,0.24795793225276574,1055.962176,ohc,4,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£8,499.00",28.5
+83,mitsubishi,outlander,3,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2833,9428960.58,0.4201131573289898,1285.026136,ohc,4,156,spdi,3.58,3.86,7.0,145,5000,19,24,"£12,629.00",21.5
+84,mitsubishi,g4,3,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2921,9721847.46,0.4465432306557767,1324.9422319999999,ohc,4,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£14,869.00",21.5
+85,mitsubishi,mirage g4,3,gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2926,9738488.76,0.44804493936752593,1327.210192,ohc,4,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£14,489.00",21.5
+86,mitsubishi,montero,1,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2365,7981023.600000001,0.28945151569462785,1072.74508,ohc,4,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£6,989.00",28.5
+87,mitsubishi,pajero,1,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2405,8116009.200000001,0.30163259839133433,1090.88876,ohc,4,122,2bbl,3.35,3.46,8.5,88,5000,25,32,"£8,189.00",28.5
+88,mitsubishi,outlander,1,gas,turbo,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,8109259.920000001,0.30102354425649896,1089.981576,ohc,4,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,279.00",26.5
+89,mitsubishi,mirage g4,-1,gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,8109259.920000001,0.30102354425649896,1089.981576,ohc,4,110,spdi,3.17,3.46,7.5,116,5500,23,30,"£9,279.00",26.5
+90,nissan,versa,1,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1889,6568241.899999999,0.16196228187936554,856.835288,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£5,499.00",34.0
+91,nissan,gt-r,1,diesel,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,2017,7013310.7,0.2021252315460255,914.8950639999999,ohc,4,103,idi,2.99,3.47,21.9,55,4800,45,50,"£7,099.00",47.5
+92,nissan,rogue,1,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1918,6669077.8,0.1710617001632182,869.989456,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£6,649.00",34.0
+93,nissan,latio,1,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1938,6738619.8,0.1773371610486338,879.061296,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£6,849.00",34.0
+94,nissan,titan,1,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2024,6908519.199999999,0.1926688604411675,918.070208,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,349.00",34.0
+95,nissan,leaf,1,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1951,6783822.1,0.18141621062415395,884.957992,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,299.00",34.0
+96,nissan,juke,1,gas,std,two,hatchback,fwd,front,94.5,165.6,63.8,53.3,2028,6896295.119999999,0.19156576107818984,919.884576,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,799.00",34.0
+97,nissan,latio,1,gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1971,6853364.1,0.18769167150956956,894.0298319999999,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,499.00",34.0
+98,nissan,note,1,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2037,6952892.1,0.19667306507034785,923.966904,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£7,999.00",34.0
+99,nissan,clipper,2,gas,std,two,hardtop,fwd,front,95.1,162.4,63.8,53.3,2008,6828284.319999999,0.1854284754783247,910.812736,ohc,4,97,2bbl,3.15,3.29,9.4,69,5200,31,37,"£8,249.00",34.0
+100,nissan,rogue,0,gas,std,four,hatchback,fwd,front,97.2,173.4,65.2,54.7,2324,8288406.560000001,0.3171897133639971,1054.147808,ohc,4,120,2bbl,3.33,3.47,8.5,97,5200,27,34,"£8,949.00",30.5
+101,nissan,nv200,0,gas,std,four,sedan,fwd,front,97.2,173.4,65.2,54.7,2302,8209944.880000001,0.31010934173470833,1044.168784,ohc,4,120,2bbl,3.33,3.47,8.5,97,5200,27,34,"£9,549.00",30.5
+102,nissan,dayz,0,gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,11340544.25,0.5926142149673121,1403.86724,ohcv,6,181,mpfi,3.43,3.27,9.0,152,5200,17,22,"£13,499.00",19.5
+103,nissan,fuga,0,gas,std,four,wagon,fwd,front,100.4,184.6,66.5,56.1,3296,12296222.4,0.6788544848671043,1495.039232,ohcv,6,181,mpfi,3.43,3.27,9.0,152,5200,17,22,"£14,399.00",19.5
+104,nissan,otti,0,gas,std,four,sedan,fwd,front,100.4,184.6,66.5,55.1,3060,11212299.0,0.5810413805634217,1387.99152,ohcv,6,181,mpfi,3.43,3.27,9.0,152,5200,19,25,"£13,499.00",22.0
+105,nissan,teana,3,gas,std,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3071,10363488.730000002,0.5044448540251565,1392.981032,ohcv,6,181,mpfi,3.43,3.27,9.0,160,5200,19,25,"£17,199.00",22.0
+106,nissan,kicks,3,gas,turbo,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3139,10592963.570000002,0.5251526332464472,1423.825288,ohcv,6,181,mpfi,3.43,3.27,7.8,200,5200,17,23,"£19,699.00",20.0
+107,nissan,clipper,1,gas,std,two,hatchback,rwd,front,99.2,178.5,67.9,49.7,3139,10592963.570000002,0.5251526332464472,1423.825288,ohcv,6,181,mpfi,3.43,3.27,9.0,160,5200,19,25,"£18,399.00",22.0
+108,peugeot,504,0,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3020,11712405.600000001,0.6261709340251888,1369.84784,l,4,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£11,900.00",21.5
+109,peugeot,304,0,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,12398861.160000002,0.6881165929989896,1450.133624,l,4,152,idi,3.7,3.52,21.0,95,4150,28,33,"£13,200.00",30.5
+110,peugeot,504 (sw),0,gas,std,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3230,12968708.4,0.7395395325935086,1465.10216,l,4,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£12,440.00",21.5
+111,peugeot,504,0,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3430,13771724.400000002,0.8120035902617221,1555.82056,l,4,152,idi,3.7,3.52,21.0,95,4150,25,25,"£13,860.00",25.0
+112,peugeot,504,0,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,11925711.000000002,0.6454195851187426,1394.7954,l,4,120,mpfi,3.46,2.19,8.4,95,5000,19,24,"£15,580.00",21.5
+113,peugeot,604sl,0,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,12612166.560000002,0.7073652440925436,1475.081184,l,4,152,idi,3.7,3.52,21.0,95,4150,28,33,"£16,900.00",30.5
+114,peugeot,504,0,gas,std,four,wagon,rwd,front,114.2,198.9,68.4,56.7,3285,12740149.800000003,0.7189144347486761,1490.04972,l,4,120,mpfi,3.46,2.19,8.4,95,5000,19,24,"£16,695.00",21.5
+115,peugeot,505s turbo diesel,0,diesel,turbo,four,wagon,rwd,front,114.2,198.9,68.4,58.7,3485,13992553.8,0.8319312061204807,1580.76812,l,4,152,idi,3.7,3.52,21.0,95,4150,25,25,"£17,075.00",25.0
+116,peugeot,504,0,gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,11925711.000000002,0.6454195851187426,1394.7954,l,4,120,mpfi,3.46,3.19,8.4,97,5000,19,24,"£16,630.00",21.5
+117,peugeot,504,0,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,12612166.560000002,0.7073652440925436,1475.081184,l,4,152,idi,3.7,3.52,21.0,95,4150,28,33,"£17,950.00",30.5
+118,peugeot,604sl,0,gas,turbo,four,sedan,rwd,front,108.0,186.7,68.3,56.0,3130,11971624.0,0.6495627681682966,1419.74296,l,4,134,mpfi,3.61,3.21,7.0,142,5600,18,24,"£18,150.00",21.0
+119,plymouth,fury iii,1,gas,std,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,1918,6216314.719999999,0.1302044196866673,869.989456,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,37,41,"£5,572.00",39.0
+120,plymouth,cricket,1,gas,turbo,two,hatchback,fwd,front,93.7,157.3,63.8,50.8,2128,6896933.119999999,0.19162333411383586,965.243776,ohc,4,98,spdi,3.03,3.39,7.6,102,5500,24,30,"£7,957.00",27.0
+121,plymouth,fury iii,1,gas,std,four,hatchback,fwd,front,93.7,157.3,63.8,50.6,1967,6350026.76,0.14227057649735916,892.215464,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,229.00",34.5
+122,plymouth,satellite custom (sw),1,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,1989,6446428.559999999,0.1509698621834719,902.194488,ohc,4,90,2bbl,2.97,3.23,9.4,68,5500,31,38,"£6,692.00",34.5
+123,plymouth,fury gran sedan,1,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,2191,7101118.639999999,0.21004900844198637,993.820072,ohc,4,98,2bbl,2.97,3.23,9.4,68,5500,31,38,"£7,609.00",34.5
+124,plymouth,valiant,-1,gas,std,four,wagon,fwd,front,103.3,174.6,64.6,59.8,2535,9792907.799999999,0.4529557063420429,1149.85572,ohc,4,122,2bbl,3.35,3.46,8.5,88,5000,24,30,"£8,921.00",27.0
+125,plymouth,duster,3,gas,turbo,two,hatchback,rwd,front,95.9,173.2,66.3,50.2,2818,9379036.68,0.41560803119374196,1278.222256,ohc,4,156,spdi,3.59,3.86,7.0,145,5000,19,24,"£12,764.00",21.5
+126,porsche,macan,3,gas,std,two,hatchback,rwd,front,94.5,168.9,68.3,50.2,2778,9524817.48,0.4287632713111473,1260.0785759999999,ohc,4,151,mpfi,3.94,3.11,9.5,143,5500,19,27,"£22,018.00",23.0
+127,,porcshce panamera,3,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,9243624.0,0.40338840885430255,1250.099552,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£32,528.00",21.0
+128,porsche,cayenne,3,gas,std,two,hardtop,rwd,rear,89.5,168.9,65.0,51.6,2756,9243624.0,0.40338840885430255,1250.099552,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£34,028.00",21.0
+129,porsche,boxter,3,gas,std,two,convertible,rwd,rear,89.5,168.9,65.0,51.6,2800,9391200.0,0.4167056475823531,1270.0576,ohcf,6,194,mpfi,3.74,2.9,9.5,207,5900,17,25,"£37,028.00",21.0
+130,porsche,cayenne,1,gas,std,two,hatchback,rwd,front,98.4,175.7,72.3,50.5,3366,12289770.899999999,0.6782723023600975,1526.790672,dohcv,8,203,mpfi,3.94,3.11,10.0,288,5750,17,28,"£31,400.50",22.5
+131,renault,12tl,0,gas,std,four,wagon,fwd,front,96.1,181.5,66.5,55.2,2579,9466993.200000001,0.4235452159292584,1169.813768,ohc,4,132,mpfi,3.46,3.9,8.7,90,5100,23,31,"£9,295.00",27.0
+132,renault,5 gtl,2,gas,std,two,hatchback,fwd,front,96.1,176.8,66.6,50.5,2460,8273717.999999999,0.3158642196516636,1115.83632,ohc,4,132,mpfi,3.46,3.9,8.7,90,5100,23,31,"£9,895.00",27.0
+133,saab,99e,3,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2658,9916067.700000001,0.4640696394342996,1205.647536,ohc,4,121,mpfi,3.54,3.07,9.31,110,5250,21,28,"£11,850.00",24.5
+134,saab,99le,2,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2695,10054101.75,0.47652581385595116,1222.43044,ohc,4,121,mpfi,3.54,3.07,9.3,110,5250,21,28,"£12,170.00",24.5
+135,saab,99le,3,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2707,10098869.55,0.48056565420891934,1227.873544,ohc,4,121,mpfi,2.54,2.07,9.3,110,5250,21,28,"£15,040.00",24.5
+136,saab,99gle,2,gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2758,10289132.700000001,0.49773497570903386,1251.006736,ohc,4,121,mpfi,3.54,3.07,9.3,110,5250,21,28,"£15,510.00",24.5
+137,saab,99gle,3,gas,turbo,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2808,10475665.200000001,0.514567643846401,1273.686336,dohc,4,121,mpfi,3.54,3.07,9.0,160,5500,19,26,"£18,150.00",22.5
+138,saab,99e,2,gas,turbo,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2847,10621160.55,0.5276971249935474,1291.376424,dohc,4,121,mpfi,3.54,3.07,9.0,160,5500,19,26,"£18,620.00",22.5
+139,subaru,,2,gas,std,two,hatchback,fwd,front,93.7,156.9,63.4,53.7,2050,6979389.0,0.1990641418230264,929.8636,ohcf,4,97,2bbl,3.62,2.36,9.0,69,4900,31,36,"£5,118.00",33.5
+140,subaru,dl,2,gas,std,two,hatchback,fwd,front,93.7,157.9,63.6,53.7,2120,7240478.4,0.22262481475875778,961.61504,ohcf,4,108,2bbl,3.62,2.64,8.7,73,4400,26,31,"£7,053.00",28.5
+141,subaru,dl,2,gas,std,two,hatchback,4wd,front,93.3,157.3,63.8,55.7,2240,7960198.399999999,0.2875722524000582,1016.04608,ohcf,4,108,2bbl,3.62,2.64,8.7,73,4400,26,31,"£7,603.00",28.5
+142,subaru,,0,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2145,7364857.500000001,0.23384876829781617,972.95484,ohcf,4,108,2bbl,3.62,2.64,9.5,82,4800,32,37,"£7,126.00",34.5
+143,subaru,brz,0,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2190,7519365.000000001,0.24779150466940963,993.36648,ohcf,4,108,2bbl,3.62,2.64,9.5,82,4400,28,33,"£7,775.00",30.5
+144,subaru,baja,0,gas,std,four,sedan,fwd,front,97.2,172.0,65.4,52.5,2340,8034390.000000001,0.2942672925747211,1061.40528,ohcf,4,108,mpfi,3.62,2.64,9.0,94,5200,26,32,"£9,960.00",29.0
+145,subaru,r1,0,gas,std,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2385,8469659.700000001,0.33354597275298153,1081.81692,ohcf,4,108,2bbl,3.62,2.64,9.0,82,4800,24,25,"£9,233.00",24.5
+146,subaru,r2,0,gas,turbo,four,sedan,4wd,front,97.0,172.0,65.4,54.3,2510,8913562.200000001,0.37360367566184527,1138.51592,ohcf,4,108,mpfi,3.62,2.64,7.7,111,4800,24,29,"£11,259.00",26.5
+147,subaru,trezia,0,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2290,7937598.000000001,0.2855327952921991,1038.72568,ohcf,4,108,2bbl,3.62,2.64,9.0,82,4800,28,32,"£7,463.00",30.0
+148,subaru,tribeca,0,gas,std,four,wagon,fwd,front,97.0,173.5,65.4,53.0,2455,8509521.0,0.33714305119466875,1113.56836,ohcf,4,108,mpfi,3.62,2.64,9.0,94,5200,25,31,"£10,198.00",28.0
+149,subaru,dl,0,gas,std,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2420,8688913.2,0.3533313796040997,1097.69264,ohcf,4,108,2bbl,3.62,2.64,9.0,82,4800,23,29,"£8,013.00",26.0
+150,subaru,dl,0,gas,turbo,four,wagon,4wd,front,96.9,173.6,65.4,54.9,2650,9514719.0,0.4278519858111307,1202.0188,ohcf,4,108,mpfi,3.62,2.64,7.7,111,4800,23,23,"£11,694.00",23.0
+151,toyota,corona mark ii,1,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,1985,6880407.000000001,0.1901320192300581,900.38012,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,35,39,"£5,348.00",37.0
+152,toyota,corona,1,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,2040,7071048.000000001,0.20733543786421466,925.32768,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,31,38,"£6,338.00",34.5
+153,toyota,corolla 1200,1,gas,std,four,hatchback,fwd,front,95.7,158.7,63.6,54.5,2015,6984393.000000001,0.19951570212141623,913.98788,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,31,38,"£6,488.00",34.5
+154,toyota,corona hardtop,0,gas,std,four,wagon,fwd,front,95.7,169.7,63.6,59.1,2280,8569972.8,0.3425982136339568,1034.18976,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,31,37,"£6,918.00",34.0
+155,toyota,corolla 1600 (sw),0,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,2290,8607560.4,0.3459901136882642,1038.72568,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,27,32,"£7,898.00",29.5
+156,toyota,carina,0,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,3110,11689743.600000001,0.624125918141474,1410.67112,ohc,4,92,2bbl,3.05,3.03,9.0,62,4800,27,32,"£8,778.00",29.5
+157,toyota,mark ii,0,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2081,7102869.2,0.21020697874493396,943.924952,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,30,37,"£6,938.00",33.5
+158,toyota,corolla 1200,0,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2109,7171274.88,0.21637989826378956,956.625528,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,30,37,"£7,198.00",33.5
+159,toyota,corona,0,diesel,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2275,7765030.000000001,0.26996028178849774,1031.9218,ohc,4,110,idi,3.27,3.35,22.5,56,4500,34,36,"£7,898.00",35.0
+160,toyota,corolla,0,diesel,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2275,7735728.0,0.267316073182699,1031.9218,ohc,4,110,idi,3.27,3.35,22.5,56,4500,38,47,"£7,788.00",42.5
+161,toyota,corona,0,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53.0,2094,7147240.800000001,0.21421106606228624,949.821648,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,38,47,"£7,738.00",42.5
+162,toyota,corolla,0,gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2122,7215479.04,0.22036887581768008,962.5222239999999,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,28,34,"£8,358.00",31.0
+163,toyota,mark ii,0,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,52.8,2140,7276684.800000001,0.22589207550768237,970.68688,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,28,34,"£9,258.00",31.0
+164,toyota,corolla liftback,1,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2169,7301721.600000001,0.22815139302940984,983.841048,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,29,34,"£8,058.00",31.5
+165,toyota,corona,1,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2204,7419545.600000001,0.23878381521115913,999.716768,ohc,4,98,2bbl,3.19,3.03,9.0,70,4800,29,34,"£8,238.00",31.5
+166,toyota,celica gt liftback,1,gas,std,two,sedan,rwd,front,94.5,168.7,64.0,52.6,2265,7624896.0,0.25731460815649354,1027.38588,dohc,4,98,mpfi,3.24,3.08,9.4,112,6600,26,29,"£9,298.00",27.5
+167,toyota,corolla tercel,1,gas,std,two,hatchback,rwd,front,94.5,168.7,64.0,52.6,2300,7742720.0,0.2679470303382428,1043.2616,dohc,4,98,mpfi,3.24,3.08,9.4,112,6600,26,29,"£9,538.00",27.5
+168,toyota,corona liftback,2,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2540,8664448.0,0.3511236431907975,1152.12368,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£8,449.00",27.0
+169,toyota,corolla,2,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2536,8650803.2,0.3498923382428621,1150.309312,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£9,639.00",27.0
+170,toyota,starlet,2,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2551,8701971.2,0.3545097317976196,1157.113192,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£9,989.00",27.0
+171,toyota,tercel,2,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52.0,2679,9138604.799999999,0.39391149013155013,1215.172968,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£11,199.00",27.0
+172,toyota,corolla,2,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52.0,2714,9257996.799999999,0.4046854084259843,1231.048688,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£11,549.00",27.0
+173,toyota,cressida,2,gas,std,two,convertible,rwd,front,98.4,176.2,65.6,53.0,2975,10343480.0,0.5026392688754361,1349.4362,ohc,4,146,mpfi,3.62,3.5,9.3,116,4800,24,30,"£17,669.00",27.0
+174,toyota,corolla,-1,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2326,8491877.1,0.3355508679914795,1055.054992,ohc,4,122,mpfi,3.31,3.54,8.7,92,4200,29,34,"£8,948.00",31.5
+175,toyota,celica gt,-1,diesel,turbo,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2480,9054108.0,0.38628651007140263,1124.90816,ohc,4,110,idi,3.27,3.35,22.5,73,4500,30,33,"£10,698.00",31.5
+176,toyota,corona,-1,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2414,8652620.9,0.35005636725053263,1094.971088,ohc,4,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£9,988.00",29.5
+177,toyota,corolla,-1,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2414,8813151.9,0.36454266346572134,1094.971088,ohc,4,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£10,898.00",29.5
+178,toyota,mark ii,-1,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2458,8810332.299999999,0.3642882231345182,1114.929136,ohc,4,122,mpfi,3.31,3.54,8.7,92,4200,27,32,"£11,248.00",29.5
+179,toyota,corolla liftback,3,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,2976,10476710.4,0.5146619625562084,1349.889792,dohc,6,171,mpfi,3.27,3.35,9.3,161,5200,20,24,"£16,558.00",22.0
+180,toyota,corona,3,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52.0,3016,10617526.4,0.5273691797780411,1368.033472,dohc,6,171,mpfi,3.27,3.35,9.3,161,5200,19,24,"£15,998.00",21.5
+181,toyota,starlet,-1,gas,std,four,sedan,rwd,front,104.5,187.8,66.5,54.1,3131,11264242.15,0.5857287235516918,1420.1965519999999,dohc,6,171,mpfi,3.27,3.35,9.2,156,5200,20,24,"£15,690.00",22.0
+182,,toyouta tercel,-1,gas,std,four,wagon,rwd,front,104.5,187.8,66.5,54.1,3151,11336195.15,0.592221752758334,1429.268392,dohc,6,161,mpfi,3.27,3.35,9.2,156,5200,19,24,"£15,750.00",21.5
+183,,vokswagen rabbit,2,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,8248919.350000001,0.313626392754449,1025.571512,ohc,4,97,idi,3.01,3.4,23.0,52,4800,37,46,"£7,775.00",41.5
+184,volkswagen,1131 deluxe sedan,2,gas,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2209,8059205.15,0.2965066084297543,1001.984728,ohc,4,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£7,975.00",30.5
+185,volkswagen,model 111,2,diesel,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2264,8259864.4,0.31461407261933516,1026.932288,ohc,4,97,idi,3.01,3.4,23.0,52,4800,37,46,"£7,995.00",41.5
+186,volkswagen,type 3,2,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2212,8070150.200000001,0.2974942882946406,1003.345504,ohc,4,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£8,195.00",30.5
+187,volkswagen,411 (sw),2,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2275,8299996.250000001,0.3182355654572514,1031.9218,ohc,4,109,mpfi,3.19,3.4,9.0,85,5250,27,34,"£8,495.00",30.5
+188,volkswagen,super beetle,2,diesel,turbo,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2319,8460523.65,0.33272153680891603,1051.879848,ohc,4,97,idi,3.01,3.4,23.0,68,4500,37,42,"£9,495.00",39.5
+189,volkswagen,dasher,2,gas,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2300,8391205.0,0.3264662309979699,1043.2616,ohc,4,109,mpfi,3.19,3.4,10.0,100,5500,26,32,"£9,995.00",29.0
+190,,vw dasher,3,gas,std,two,convertible,fwd,front,94.5,159.3,64.2,55.6,2254,8045698.080000001,0.2952877322188089,1022.3963679999999,ohc,4,109,mpfi,3.19,3.4,8.5,90,5500,24,29,"£11,595.00",26.5
+191,,vw rabbit,3,gas,std,two,hatchback,fwd,front,94.5,165.7,64.0,51.4,2221,7306201.6,0.22855566763708082,1007.427832,ohc,4,109,mpfi,3.19,3.4,8.5,90,5500,24,29,"£9,980.00",26.5
+192,volkswagen,rabbit,0,gas,std,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2661,9808951.590000002,0.45440349583039297,1207.008312,ohc,5,136,mpfi,3.19,3.4,8.5,110,5500,19,24,"£13,295.00",21.5
+193,volkswagen,rabbit custom,0,diesel,turbo,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2579,9506684.010000002,0.4271269093758873,1169.813768,ohc,4,97,idi,3.01,3.4,23.0,68,4500,33,38,"£13,845.00",35.5
+194,volkswagen,dasher,0,gas,std,four,wagon,fwd,front,100.4,183.1,66.9,55.1,2563,9447704.97,0.42180464860427636,1162.556296,ohc,4,109,mpfi,3.19,3.4,9.0,88,5500,25,31,"£12,290.00",28.0
+195,volvo,145e (sw),-2,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2912,10997575.680000002,0.56166477655654,1320.859904,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£12,940.00",25.5
+196,volvo,144ea,-1,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3034,11723376.0,0.6271609014707231,1376.198128,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£13,415.00",25.5
+197,volvo,244dl,-2,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2935,11084438.4,0.5695032569246744,1331.29252,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,24,28,"£15,985.00",26.0
+198,volvo,245,-1,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3042,11754288.0,0.6299503962636536,1379.826864,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,24,28,"£16,515.00",26.0
+199,volvo,264gl,-2,gas,turbo,four,sedan,rwd,front,104.3,188.8,67.2,56.2,3045,11499868.8,0.6069916412940133,1381.1876399999999,ohc,4,130,mpfi,3.62,3.15,7.5,162,5100,17,22,"£18,420.00",19.5
+200,volvo,diesel,-1,gas,turbo,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3157,12198648.0,0.6700493839120283,1431.989944,ohc,4,130,mpfi,3.62,3.15,7.5,162,5100,17,22,"£18,950.00",19.5
+201,volvo,145e (sw),-1,gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,2952,11288300.4,0.5878997368507995,1339.003584,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,23,28,"£16,845.00",25.5
+202,volvo,144ea,-1,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.8,55.5,3049,11642301.6,0.6198447583340785,1383.002008,ohc,4,141,mpfi,3.78,3.15,8.7,160,5300,19,25,"£19,045.00",22.0
+203,volvo,244dl,-1,gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3012,11517737.4,0.6086041013954934,1366.219104,ohcv,6,173,mpfi,3.58,2.87,8.8,134,5500,18,23,"£21,485.00",20.5
+204,volvo,246,-1,diesel,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3217,12301647.15,0.6793440135898641,1459.205464,ohc,6,145,idi,3.01,3.4,23.0,106,4800,26,27,"£22,470.00",26.5
+205,volvo,264gl,-1,gas,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3062,11708934.9,0.6258577385160716,1388.898704,ohc,4,141,mpfi,3.78,3.15,9.5,114,5400,19,25,"£22,625.00",22.0
