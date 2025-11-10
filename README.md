@@ -1,72 +1,55 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Car Price Prediction Multiple Linear Regression 
 
-## Template Instructions
+**Car Price Prediction Multiple Linear Regression** is an all-in-one data analysis tool that simplifies data exploration, processing, and visualisation. It supports a wide range of data formats and enables efficient workflows for all types of data scientists. 
 
-Welcome,
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+## Business Requirements
+The business requires a predictive car pricing model that uses available independent variables to reveal how each factor influences price, enabling management to adjust design and strategy to meet target price levels while also gaining insights into pricing dynamics for new markets.
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+## Hypothesis And How To Validate
+## Hypothesis 1.1: Bar Chart 
+Car brand affect average car price.
 
-## How to use this repo
+## Hypothesis 1.2: Bar Chart
+H1.2: Car Body Type influence the price ........
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+### Result:
 
-1. Copy the URL of your repository to your clipboard.
+## Hypothesis 2: Descriptive Statistics
+Engine size , Car Space and Fuel Efficiency has positive correlations with price.
 
-1. In VS Code, select **File** -> **Open Folder**.
+### Result:
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+## Hypothesis 3: 
+Car prices vary significantly by manufacturing region.
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+### Result: 
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
 
-1. In VS Code, select **File** > **Open Folder** again.
+## Project Plan
+*Summarise the key stages followed during the analysis process
+*Describe how the data was handled during collection, preparatio, analysis and interpretation
+*Explain the rationale behind selecting the specific research methods used.
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+## The Rationale To Map The Business Requirements To Data Visualations
+*The first visualisation is 
+*The second visualisation is 
+*The third visualisation is 
+*The fourth visualisation is 
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+## Analysis Techniques Used
+Prepare, validate and transform the data using Jupyter Notebooks.
+Visualisations: Box plots, Bar Charts, Descriptive Statistics, Heat Maps.
+PowerBI and Streamlit to create dashboards.
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+## Ethical Considerations
+We followed the data regulations as this is very important with data analysis. There were no other ethical commitments we needed like anonymising data. 
 
-1. Choose **Venv** from the dropdown list.
+## Planning
+To ensure that everyone was on track we created a project board so that we could all see our tasks and make sure they were being updated (to do, in progress and completed) https://github.com/users/dumindagamage/projects/4/views/1 
+ 
+ ## Main Data Analysis Libraries
+* Pandas
+* Numpy
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
-
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
-
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
-
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
-
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
-
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
-
- ```console
- pip3 install -r requirements.txt
- ```
-
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
-
-1. Click the **kernel** button and choose **Python Environments**.
-
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
-
-```console
-! python --version
-```
-
-## Deployment Reminders
-
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+## Credits 
