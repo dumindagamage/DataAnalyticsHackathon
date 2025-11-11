@@ -20,7 +20,7 @@ Car brand affect average car price.
 The more expensive car brands have higher average prices in the market.
 
 ## Hypothesis 2: 
-H1.2: Car Body Type influences the price 
+H2: Car Body Type influences the price 
 
 ### Result:
 Hardtops and convertibles have a significantly higher average price than sedans, wagons and hatchbacks.
