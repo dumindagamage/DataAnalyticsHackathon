@@ -163,6 +163,66 @@ def has_significant_price_gap(summary_stats, threshold_percent=30):
         print(f"Error in price gap analysis: {e}")
         return False
 
+def find_regional_brand_gaps(segment_data, threshold_percent=30):
+    """
+    Check for significant percentage gaps between consecutive brands within each region.
+    
+    Parameters:
+    segment_data (DataFrame): Crosstab DataFrame with regions as index and brands as columns
+    threshold_percent (float): Percentage threshold to check for
+    
+    Returns:
+    dict: Results for each region showing if significant gaps exist
+    """
+    results = {}
+    
+    for region in segment_data.index:
+        # Get brand percentages for this region, sorted descending
+        region_data = segment_data.loc[region].sort_values(ascending=False)
+        
+        # Filter out zero percentages
+        non_zero_percentages = region_data[region_data > 0]
+        
+        if len(non_zero_percentages) < 2:
+            results[region] = {
+                'has_gap': False,
+                'message': 'Not enough brands with non-zero percentages'
+            }
+            continue
+        
+        has_gap = False
+        gap_details = []
+        
+        # Check gaps between consecutive brands
+        for i in range(len(non_zero_percentages) - 1):
+            current_brand = non_zero_percentages.index[i]
+            next_brand = non_zero_percentages.index[i + 1]
+            current_percent = non_zero_percentages.iloc[i]
+            next_percent = non_zero_percentages.iloc[i + 1]
+            
+            lower_percent = min(current_percent, next_percent)
+            percent_diff = abs(current_percent - next_percent)
+            gap_percent = (percent_diff / lower_percent) * 100
+            
+            gap_info = {
+                'brands': f"{current_brand} → {next_brand}",
+                'current_percent': current_percent,
+                'next_percent': next_percent,
+                'gap_percent': gap_percent,
+                'exceeds_threshold': gap_percent >= threshold_percent
+            }
+            gap_details.append(gap_info)
+            
+            if gap_percent >= threshold_percent:
+                has_gap = True
+        
+        results[region] = {
+            'has_gap': has_gap,
+            'total_brands': len(non_zero_percentages),
+            'gap_details': gap_details
+        }
+    
+    return results
 
 # =============================================================================
 # MAIN DASHBOARD - TABS
@@ -238,7 +298,7 @@ with tab1:
         st.plotly_chart(fig, use_container_width=True)
 
 
-   # Next Row: Average price by Body Type 
+   # Next Row: Average price by Body Type and Fuel Type 
     col1, col2 = st.columns(2)
     
     with col1:
@@ -257,19 +317,49 @@ with tab1:
         st.plotly_chart(fig, use_container_width=True)
     
     with col2:
-        st.subheader("Car Body Type vs Price Analysis")
-        least_expensive = df_filtered.groupby('carbody')['price'].agg(['mean', 'count']).sort_values('mean').head(10)
+        st.subheader("Fuel Type vs Price Analysis")
 
-        fig = px.scatter(
-            least_expensive,
-            x=least_expensive.index,
-            y='mean',
-            title="Average price per Car Body Types",
-            labels={'mean': 'Average Price ($)', 'index': 'Car Body Type'},
-            size='count',  # Use count for bubble size
-            hover_data={'mean': ':.0f', 'count': True}
+        # Group by fuel type and calculate statistics
+        fuel_analysis = df_filtered.groupby('fueltype').agg({
+            'price': 'mean',
+            'Brand': 'count'
+        }).round(2).reset_index()
+
+        fuel_analysis = fuel_analysis.rename(columns={
+            'price': 'avg_price',
+            'Brand': 'count'
+        })
+
+        # Create the pie chart
+        fig = px.pie(
+            fuel_analysis,
+            values='avg_price',
+            names='fueltype',
+            title="Average Price Distribution by Fuel Type",
+            hover_data=['count'],
+            labels={'avg_price': 'Average Price ($)', 'count': 'Number of Cars'}
         )
-        fig.update_layout(height=400, xaxis_tickangle=-45)
+
+        # Customize the chart
+        fig.update_traces(
+            textposition='inside',
+            textinfo='percent+label',
+            hovertemplate="<b>%{label}</b><br>Average Price: $%{value:,.0f}<br>Number of Cars: %{customdata[0]}<extra></extra>",
+            marker=dict(line=dict(color='#000000', width=1))
+        )
+
+        fig.update_layout(
+            height=425,
+            showlegend=True,
+            legend=dict(
+                orientation="h",
+                yanchor="bottom",
+                y=-0.1,
+                xanchor="center",
+                x=0.5
+            )
+        )
+
         st.plotly_chart(fig, use_container_width=True)
 
 
@@ -277,20 +367,20 @@ with tab1:
     st.subheader("Summary of insights")
     
     summary_data = {
-        'Hypothesis': [
+        'Statement': [
             'Luxury brands command premium',
             'Car Body Type influences price', 
             'Fuel Type influences price'
         ],
-        'Correlation/Metrix': [
+        'Matrix': [
             f"+{premium_pct:.1f}%",
             f"Over 30% gap" if has_significant_price_gap(price_by_type,30) else "Below 30%",
-            f"Over 30% gap" #if has_significant_price_gap(price_by_type) else "Below 30%"
+            f"Over 30% gap" if has_significant_price_gap(fuel_analysis,30) else "Below 30%"
         ],
         'Status': [
             '✅ Validated' if premium_pct > 20 else '⚠️ Partial',
             '✅ Validated' if has_significant_price_gap(price_by_type,30) else '⚠️ Partial',
-            '✅ Validated' #if has_significant_price_gap(price_by_type) else '⚠️ Partial'
+            '✅ Validated' if has_significant_price_gap(fuel_analysis,30) else '⚠️ Partial'
         ]
     }
     
@@ -374,7 +464,7 @@ with tab2:
             st.info("Price column not available for correlation analysis")
     
     with col2:
-        st.subheader("Horsepower vs Price")
+        #st.subheader("Horsepower vs Price")
         
         # Calculate correlation
         corr_coef = df_filtered['horsepower'].corr(df_filtered['price'])
@@ -430,6 +520,31 @@ with tab2:
             st.plotly_chart(fig, use_container_width=True)
 
 
+    # Insight Summary
+    st.subheader("Summary of insights")
+    
+    corr_summary_data = {
+        'Statement': [
+            'Higher performance = Higher prices',
+            'Larger vehicles cost more',
+            'Fuel efficiency reduces price'
+        ],
+        'Correlation': [
+            f"{df_filtered['horsepower'].corr(df_filtered['price']):.3f}",
+            f"{df_filtered['car_space'].corr(df_filtered['price']):.3f}" if 'car_space' in df_filtered.columns else 'N/A',
+            f"{df_filtered['fuel_efficiency'].corr(df_filtered['price']):.3f}" if 'fuel_efficiency' in df_filtered.columns else 'N/A'
+        ],
+        'Status': [
+            '✅ Validated' if df_filtered['horsepower'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
+            '✅ Validated' if 'car_space' in df_filtered.columns and df_filtered['car_space'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
+            '✅ Validated' if 'fuel_efficiency' in df_filtered.columns and df_filtered['fuel_efficiency'].corr(df_filtered['price']) < -0.3 else '⚠️ Partial'
+        ]
+    }
+    
+    corr_summary_df = pd.DataFrame(corr_summary_data)
+    st.dataframe(corr_summary_df, use_container_width=True)
+
+
     # Statistical significance indicators
     st.subheader("Statistical Significance Guide")
     col1, col2, col3 = st.columns(3)
@@ -440,41 +555,13 @@ with tab2:
     with col3:
         st.markdown("**Weak Correlation:** |r| < 0.5")
 
-
-    st.subheader("Summary of insights")
-    
-    corr_summary_data = {
-        'Hypothesis': [
-            'Higher horsepower = Higher prices',
-            'Luxury brands command premium', 
-            'Larger vehicles cost more',
-            'Fuel efficiency reduces price'
-        ],
-        'Correlation/Metric': [
-            f"{df_filtered['horsepower'].corr(df_filtered['price']):.3f}",
-            f"+{premium_pct:.1f}%",
-            f"{df_filtered['car_space'].corr(df_filtered['price']):.3f}" if 'car_space' in df_filtered.columns else 'N/A',
-            f"{df_filtered['fuel_efficiency'].corr(df_filtered['price']):.3f}" if 'fuel_efficiency' in df_filtered.columns else 'N/A'
-        ],
-        'Status': [
-            '✅ Validated' if df_filtered['horsepower'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
-            '✅ Validated' if premium_pct > 20 else '⚠️ Partial',
-            '✅ Validated' if 'car_space' in df_filtered.columns and df_filtered['car_space'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
-            '✅ Validated' if 'fuel_efficiency' in df_filtered.columns and df_filtered['fuel_efficiency'].corr(df_filtered['price']) < -0.3 else '⚠️ Partial'
-        ]
-    }
-    
-    corr_summary_df = pd.DataFrame(corr_summary_data)
-    st.dataframe(corr_summary_df, use_container_width=True)
-
-
     # Add correlation interpretation
     if 'Price' in corr_matrix.columns:
         price_corr = corr_matrix['Price'].sort_values(ascending=False)
         price_corr = price_corr[price_corr.index != 'Price']
         
         # Highlight top correlations
-        st.subheader("🔍 Key Business Insights")
+        st.subheader("Key Insights")
         
         top_positive = price_corr.head(3)
         top_negative = price_corr.tail(1)
@@ -540,17 +627,17 @@ with tab3:
     st.subheader("Summary of insights")
     
     geo_summary_data = {
-        'Hypothesis': [
+        'Statement': [
             'Cars from different geography  show statistically significant differences in pricing',
             'Cars from different geography  has leading brands commanding higher prices'
         ],
-        'Correlation/Metrix': [
+        'Matrix': [
             f"Over 30% gap" if has_significant_price_gap(region_stats,30) else "Below 30%",
-            f"Over 30% gap" #if has_significant_price_gap(price_by_type) else "Below 30%"
+            f"Over 30% gap" if find_regional_brand_gaps(region_segment,30) else "Below 30%"
         ],
         'Status': [
-            '✅ Validated' if has_significant_price_gap(price_by_type,30) else '⚠️ Partial',
-            '✅ Validated' #if has_significant_price_gap(price_by_type) else '⚠️ Partial'
+            '✅ Validated' if has_significant_price_gap(region_stats,30) else '⚠️ Partial',
+            '✅ Validated' if find_regional_brand_gaps(region_segment,30) else '⚠️ Partial'
         ]
     }
     geo_summary_df = pd.DataFrame(geo_summary_data)
