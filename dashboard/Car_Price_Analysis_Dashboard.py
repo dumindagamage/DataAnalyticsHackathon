@@ -531,12 +531,12 @@ with tab2:
         ],
         'Correlation': [
             f"{df_filtered['horsepower'].corr(df_filtered['price']):.3f}",
-            f"{df_filtered['car_space'].corr(df_filtered['price']):.3f}" if 'car_space' in df_filtered.columns else 'N/A',
+            f"{df_filtered['car_size'].corr(df_filtered['price']):.3f}" if 'car_size' in df_filtered.columns else 'N/A',
             f"{df_filtered['fuel_efficiency'].corr(df_filtered['price']):.3f}" if 'fuel_efficiency' in df_filtered.columns else 'N/A'
         ],
         'Status': [
             '✅ Validated' if df_filtered['horsepower'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
-            '✅ Validated' if 'car_space' in df_filtered.columns and df_filtered['car_space'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
+            '✅ Validated' if 'car_size' in df_filtered.columns and df_filtered['car_size'].corr(df_filtered['price']) > 0.5 else '⚠️ Partial',
             '✅ Validated' if 'fuel_efficiency' in df_filtered.columns and df_filtered['fuel_efficiency'].corr(df_filtered['price']) < -0.3 else '⚠️ Partial'
         ]
     }
