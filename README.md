@@ -1,18 +1,20 @@
-# Car Price Prediction Multiple Linear Regression - Group Project (Data Wranglers)
+# Car Price Analysis - Group Project (Data Wranglers)
 **Group Members:**
 - Data Architect: Michael
-- Data Analyst: Collins 
-- Project Manager: Duminda 
+- Data Analyst: Collins
+- Project Manager: Duminda
 
-**Car Price Prediction Multiple Linear Regression** is an all-in-one data analysis tool that simplifies data exploration, processing, and visualisation. It supports a wide range of data formats and enables efficient workflows for all types of data scientists. 
+**Car Price Analysis** is an all-in-one data analysis tool that simplifies data exploration and visualisation tool help to develop a winning strategy for the US automotive landscape.
+ It supports a wide range of data formats and enables efficient workflows for all types of data analyssts.
 
 ## Dataset Content
 The dataset we used is from [Kaggle Car Price Prediction](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction/data) the data is titled `CarPrice_Assignment.csv`
 
 ## Business Requirements
-The business requires a predictive car pricing model that uses available independent variables to reveal how each factor influences price, enabling management to adjust design and strategy to meet target price levels while also gaining insights into pricing dynamics for new markets.
+The business requires a Exploratory Data Analyis that uses available independent variables to reveal how each factor influences price, enabling management to adjust design and strategy to meet target price levels while also gaining insights into pricing dynamics for entring and thriving in the US markets.
 
 ## Hypothesis And How To Validate
+
 ## Hypothesis 1: 
 Car brand affect average car price.
 
@@ -20,7 +22,7 @@ Car brand affect average car price.
 The more expensive car brands have higher average prices in the market.
 
 ## Hypothesis 2: 
-H2: Car Body Type influences the price 
+Car Body Type influences the price 
 
 ### Result:
 Hardtops and convertibles have a significantly higher average price than sedans, wagons and hatchbacks.
@@ -29,23 +31,23 @@ Hardtops and convertibles have a significantly higher average price than sedans,
 Engine size , Car Space and Fuel Efficiency has positive correlations with price.
 
 ### Result:
-The larger vehicles have larger prices which is based of their engine performance, fuel efficiency and vehicle size.
+Vehicle price exhibits a positive correlation with engine performance and size, and a negative correlation with fuel efficiency.
 
 ## Hypothesis 4: 
 Car prices vary significantly by manufacturing region.
 
 ### Result: 
-European and North American markets are significantly higher in average prices compared to Asia.
+European and North American brands are significantly higher in average prices compared to Asia.
 
 ## Project Plan
 * Process the dataset and assign roles (Data Architect, Data Analyst, Project Manager) 
 * Clean the data (check for errors, duplicates, missing values, etc.)
 * Load and create interactive visualisations and dashboards.
-* Present information using the visualisations and dashboards.
+* Present information using the visualisations and interactive dashboard.
 
 ## The Rationale To Map The Business Requirements To Data Visualisations
 * The first visualisation is a bar chart (Descriptive) which displays the average price by brand that shows the benefit of selling high range of luxury brands. 
-* The second visualisation is a bart chart (Descriptive) which shows the average price by body type (hardtop, convertible, sedan, wagon, hactchback) where it shows the two main types that provides higher sales (hardtops and convertibles).
+* The second visualisation is a bar chart (Descriptive) which shows the average price by body type (hardtop, convertible, sedan, wagon, hactchback) where it shows the two main types that provides higher sales (hardtops and convertibles).
 * The third visualisation is a heatmap (correlation) which shows the engine performance, drives the price as it has a correalation of 0.806. The fuel efficiency negatively impacts the price as the correalation is -0.7. Large vehicles have larger prices that also has a correalation of 0.6 that proves the statement that larger vehicles cost more.
 * The fourth visualisation is a scatter plot (correlation) which is used to additionally prove the previous statement that larger vehicles cost more.
 * The fifth visualisation is a bar chart (geographical) that shows the drastic difference in sales in Europe and North American where it is clear that the markets in these regions are far more benefitical. 
@@ -73,21 +75,22 @@ To ensure that everyone was on track we created a project board so that we could
  ## Main Data Analysis Libraries
 * Pandas - For data manipulation
 * Numpy - For data manipulation
-* Streamlit - For an interactive web appliaction to display findings
+* Streamlit - For an interactive web dashboard for EDA and to display findings
 * Plotly - For interactive visualisations
 * Matplotlib - For plot visualisations
-* Statsmodels - For statistical modelling and hypothesis testing
-* Power BI - FOr data modelling and hypothesis testing
-* (AI) ChatGPT and CoPilot for general data error fixes
+* Statsmodels - For statistical modelling
+* Power BI - FOr data modelling and visualization
+* (AI) ChatGPT and CoPilot for branstorming, improve code quality and bug fixes
 
 ## Deployment
 * ETL Notebook is executable in Jupyter Notebook (.ipynb).
 * Data cleaning and analysis steps are clearly documented.
 * Run the ETL notebook first to generate the processed dataset.
 * Use streamlit run .\dashboard\Car_Price_Analysis_Dashboard.py to run the dashboard
+* Or simply find the Car Price ANalysis Dashboard in the cloud - https://analyzecarprice.streamlit.app/
 
 ## Unfixed Bugs
-* There are no current bugs to be fixed to our knowledge but we could not host the streamlit dashboard in the cloud due to an dependancy incompatibility issue.
+* There are no current bugs to be fixed to our knowledge but faced changes with the streamlit dashboard in the cloud due to an dependancy issue.
 * Skill gap: We have recognised the need to strengthen our dashboard development skills and take action to improve the, through guided learning and practice.
 
 ## Credits 
